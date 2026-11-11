@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Prathik - Aspiring Software Developer and MCA Student">
+  <title>Prathik | Aspiring Software Developer</title>
+
+  <!-- Google Fonts (CDN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome icons (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Decorative animated background (purely visual) -->
+  <div class="aurora" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+    <span class="grid-overlay"></span>
+  </div>
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo"><span class="logo-bracket">&lt;</span>PRATHIK<span class="logo-bracket">/&gt;</span></a>
+     
+      <!-- CSS-only mobile menu: hidden checkbox + label -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow"><i class="fa-solid fa-terminal"></i> Hi, I'm Prathik</p>
+        <h1>Aspiring <span class="gradient-text">Software Developer</span> &amp; MCA Student</h1>
+        <p class="hero-desc">
+          I am a BCA graduate currently pursuing my Master of Computer Applications.
+          I enjoy turning ideas into clean, responsive and useful software, and I am
+          always curious to learn the next technology.
+        </p>
+        <div class="btn-row">
+          <a href="#projects" class="btn btn-primary">Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <!-- Profile image placeholder with glowing rotating ring -->
+        <div class="avatar-ring">
+          <div class="avatar">
+            <i class="fa-solid fa-user-astronaut"></i>
+            
+            <small> <img src="img4.webp" alt="" height="400" width="400"></small>
+          </div>
+        </div>
+
+        <!-- Floating code card (decorative) -->
+        <div class="code-card" aria-hidden="true">
+          <div class="code-dots"><i></i><i></i><i></i></div>
+      
+          <pre><code><span class="k">const</span> <span class="v">prathik</span> = {
+  <span class="p">goal</span>: <span class="s">"Software Developer"</span>,
+  <span class="p">studying</span>: <span class="s">"MCA"</span>,
+  <span class="p">learning</span>: <span class="k">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+      <header class="section-head">
+        <span class="section-tag">01 // about</span>
+        <h2>About Me</h2>
+      </header>
+
+      <article class="about-card glass">
+        <div class="about-icon"><i class="fa-solid fa-code"></i></div>
+        <div>
+          <h3>Hello, I'm Prathik</h3>
+          <p>
+            I completed my <strong>Bachelor of Computer Applications (BCA)</strong> at
+            <strong>Canara College</strong> and I am currently pursuing my
+            <strong>Master of Computer Applications (MCA)</strong> at
+            <strong>Sahyadri College of Engineering and Management</strong>.
+          </p>
+          <p>
+            I am passionate about programming, web technologies and software development.
+            My goal is to grow into a skilled software developer who builds reliable,
+            user-friendly applications.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section">
+      <header class="section-head">
+        <span class="section-tag">02 // education</span>
+        <h2>Education</h2>
+      </header>
+
+      <div class="timeline">
+        <article class="t-item glass">
+          <span class="t-dot"><i class="fa-solid fa-graduation-cap"></i></span>
+          <span class="badge badge-live">Currently Pursuing</span>
+          <h3>Master of Computer Applications (MCA)</h3>
+          <img src="img2.jfif" alt=" " height="200" width="400">
+          <p class="t-place"><i class="fa-solid fa-building-columns"></i> Sahyadri College of Engineering and Management</p>
+        </article>
+
+        <article class="t-item glass">
+          <span class="t-dot"><i class="fa-solid fa-book-open"></i></span>
+          <span class="badge badge-done">Completed</span>
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <img src="img3.jpg" alt="" height="200" width="400">
+          <p class="t-place"><i class="fa-solid fa-building-columns"></i> Canara College</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+      <header class="section-head">
+        <span class="section-tag">03 // skills</span>
+        <h2>Technical Skills</h2>
+      </header>
+
+      <div class="skills-grid">
+        <article class="skill glass"><i class="fa-brands fa-html5"></i><h3>HTML5</h3><span class="chip">Markup</span></article>
+        <article class="skill glass"><i class="fa-brands fa-css3-alt"></i><h3>CSS3</h3><span class="chip">Styling</span></article>
+        <article class="skill glass"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><span class="chip">Web</span></article>
+        <article class="skill glass"><i class="fa-brands fa-python"></i><h3>Python</h3><span class="chip">Language</span></article>
+        <article class="skill glass"><i class="fa-brands fa-java"></i><h3>Java</h3><span class="chip">Language</span></article>
+        <article class="skill glass"><i class="fa-solid fa-c"></i><h3>C Programming</h3><span class="chip">Language</span></article>
+        <article class="skill glass"><i class="fa-solid fa-database"></i><h3>MySQL</h3><span class="chip">Database</span></article>
+        <article class="skill glass"><i class="fa-brands fa-github"></i><h3>Git &amp; GitHub</h3><span class="chip">Version Control</span></article>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <header class="section-head">
+        <span class="section-tag">04 // projects</span>
+        <h2>Projects</h2>
+        <p class="note"><i class="fa-solid fa-circle-info"></i> These are sample projects and can be replaced with my actual work.</p>
+      </header>
+
+      <div class="projects-grid">
+        <article class="project glass">
+          <span class="badge badge-sample">mini project</span>
+          <i class="fa-solid fa-laptop-code project-icon"></i>
+          <h3>student Rental Hub</h3>
+          <img src="img5.png" alt="">
+        <p>Student Rental Hub makes student life easier by providing affordable rentals of books, projectors, and two-wheelers in one place.
+
+          Save money, access what you need, and enjoy a smarter, more convenient student lifestyle!</p>
+          <ul class="tags"><li>HTML5</li><li>CSS3</li></ul>
+          <a href="#" class="project-link"><i class="fa-brands fa-github"></i> GitHub link (placeholder)</a>
+        </article>
+
+      <div class="projects-grid">
+        <article class="project glass">
+          <span class="badge badge-sample">Sample Project</span>
+          <i class="fa-solid fa-laptop-code project-icon"></i>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive developer portfolio presenting my education, skills and projects in one place.</p>
+          <ul class="tags"><li>HTML5</li><li>CSS3</li></ul>
+          <a href="#" class="project-link"><i class="fa-brands fa-github"></i> GitHub link (placeholder)</a>
+        </article>
+
+        <article class="project glass">
+          <span class="badge badge-sample">Sample Project</span>
+          <i class="fa-solid fa-users-gear project-icon"></i>
+          <h3>Student Management System</h3>
+          <p>A system to store and manage student records such as details, courses and marks.</p>
+          <ul class="tags"><li>Java</li><li>MySQL</li></ul>
+          <a href="#" class="project-link"><i class="fa-brands fa-github"></i> GitHub link (placeholder)</a>
+        </article>
+
+        <article class="project glass">
+          <span class="badge badge-sample">Sample Project</span>
+          <i class="fa-solid fa-mobile-screen-button project-icon"></i>
+          <h3>Responsive Web Design Project</h3>
+          <p>A layout that adapts smoothly to mobile, tablet and desktop screens using modern CSS.</p>
+          <ul class="tags"><li>HTML5</li><li>CSS Grid</li><li>Flexbox</li></ul>
+          <a href="#" class="project-link"><i class="fa-brands fa-github"></i> GitHub link (placeholder)</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= INTERESTS ================= -->
+    <section id="interests" class="section">
+      <header class="section-head">
+        <span class="section-tag">05 // interests</span>
+        <h2>Interests</h2>
+      </header>
+
+      <div class="interests-grid">
+        <article class="interest glass"><i class="fa-solid fa-rocket"></i><h3>Learning New Technologies</h3></article>
+        <article class="interest glass"><i class="fa-solid fa-globe"></i><h3>Web Development</h3></article>
+        <article class="interest glass"><i class="fa-solid fa-puzzle-piece"></i><h3>Problem Solving</h3></article>
+        <article class="interest glass"><i class="fa-solid fa-gears"></i><h3>Software Development</h3></article>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+      <header class="section-head">
+        <span class="section-tag">06 // contact</span>
+        <h2>Let's Connect!</h2>
+      </header>
+
+      <div class="contact-wrap">
+        <div class="contact-info glass">
+          <p>I'd love to hear from you. Replace the placeholders below with your real details.</p>
+          <ul>
+            <li><i class="fa-solid fa-envelope"></i> prathikkulal0@gmail.com</li>
+            <li><i class="fa-brands fa-linkedin"></i> linkedin.com/in/your-profile</li>
+            <li><i class="fa-brands fa-github"></i> github.com/your-username</li>
+          </ul>
+        </div>
+
+        <!-- Demo form: no backend is connected -->
+        <form class="contact-form glass" action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+          <button type="submit" class="btn btn-primary">Submit <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <p>Designed &amp; Developed by Prathik &copy; 2026</p>
+    <ul class="socials">
+      <li><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+      <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
